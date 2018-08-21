@@ -1,6 +1,5 @@
 {
   "name": "pushups",
-  "homepage": "https://jfals82.github.io/pushups",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,8 +13,6 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
